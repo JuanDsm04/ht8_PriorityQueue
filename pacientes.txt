@@ -1,0 +1,25 @@
+Juan Pérez, fractura de pierna, A
+María García, tratamiento de diabetes, B
+Carlos Rodríguez, dolores de espalda, C
+Laura Martínez, gripe, D
+José Sánchez, infección de garganta, E
+Ana López, dolor de cabeza crónico, B
+Manuel Gómez, asma, A
+Rosa Díaz, dolor abdominal, C
+Javier Fernández, migraña, D
+Isabel Ruiz, alergia severa, A
+Martín Hernández, fractura de brazo, B
+Andrea Torres, tratamiento de hipertensión, C
+Diego González, problemas de tiroides, E
+Patricia Navarro, dolores de articulaciones, A
+Juanita Ríos, influenza, D
+Rodrigo Pérez, problemas gastrointestinales, B
+Estela Mendoza, dolor de muelas, C
+Arturo Salazar, lesión en la rodilla, A
+Lucía Ramírez, tratamiento de ansiedad, E
+Gustavo Gutiérrez, dolor en el pecho, B
+Silvia Rojas, infección de oído, C
+Ricardo Díaz, problemas de visión, D
+Paola Herrera, fractura de cadera, A
+Federico Castro, problemas de audición, B
+Lorena López, quemaduras leves, E

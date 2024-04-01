@@ -37,7 +37,8 @@ public class Lector {
             scanner.close();
 
         } catch (FileNotFoundException e) {
-            System.err.println("Ocurrió un error, el archivo no fue encontrado");
+            System.err.println("Ocurrió un error, el archivo con los pacientes no fue encontrado");
+            System.exit(0);
         }
         return priorityQueue;
     }

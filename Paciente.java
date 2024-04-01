@@ -75,7 +75,12 @@ public class Paciente implements Comparable<Paciente> {
      */
     @Override
     public int compareTo(Paciente paciente) {
-        return Character.compare(this.prioridad, paciente.prioridad);
+        int comparePriority = Character.compare(this.prioridad, paciente.prioridad);
+        
+        if (comparePriority == 0) {
+            return this.nombre.compareTo(paciente.nombre);
+        }
+        return comparePriority;
     }
 
     /**
