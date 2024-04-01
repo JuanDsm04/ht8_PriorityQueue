@@ -52,7 +52,7 @@ public class BinaryTree<T extends Comparable<T>> {
         }
 
         T value = findMin(root);
-        root = removeRecursive(root, value);
+        root = removeRecursivo(root, value);
         return value;
     }
 
@@ -71,16 +71,16 @@ public class BinaryTree<T extends Comparable<T>> {
      * @param value Valor del nodo a eliminar
      * @return Nodo que se eliminó del árbol binario
      */
-    private Nodo<T> removeRecursive(Nodo<T> current, T value) {
+    private Nodo<T> removeRecursivo(Nodo<T> current, T value) {
         if (current == null) {
             return null;
         }
 
         if (value.compareTo(current.data) < 0) {
-            current.left = removeRecursive(current.left, value);
+            current.left = removeRecursivo(current.left, value);
             
         } else if (value.compareTo(current.data) > 0) {
-            current.right = removeRecursive(current.right, value);
+            current.right = removeRecursivo(current.right, value);
 
         } else {
             if (current.left == null) {
@@ -91,7 +91,7 @@ public class BinaryTree<T extends Comparable<T>> {
             }
 
             current.data = findMin(current.right);
-            current.right = removeRecursive(current.right, current.data);
+            current.right = removeRecursivo(current.right, current.data);
         }
 
         return current;
@@ -103,5 +103,13 @@ public class BinaryTree<T extends Comparable<T>> {
      */
     public boolean isEmpty() {
         return root == null;
+    }
+
+    /**
+     * @description Método que obtiene la raíz del árbol binario
+     * @return Raíz del árbol binario
+     */
+    public Nodo<T> getRoot() {
+        return root;
     }
 }
